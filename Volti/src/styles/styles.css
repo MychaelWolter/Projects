@@ -1,0 +1,34 @@
+
+
+:rot {
+    --rich-black-fogra-29: rgb(20, 21, 26);
+    --gray-x-11-gray: rgb(186, 186, 186);
+    --oxford-blue_a15: rgba(9, 22, 42, 0.15);
+    --yellow-green: rgb(139, 198, 63);
+    --smoky-black: rgb(15, 15, 15);
+    --black-coral: rgb(96, 98, 108);
+    --light-gray: rgb(204, 204, 204);
+    --cultured: rgb(238, 238, 241);
+    --white: rgb(255, 255, 255);
+    --white_a30: rgba(255, 255, 255, 0.3);
+    --black: rgb(0, 0, 0);
+
+    --ff-quicksand: "Quicksand", sans-serif;
+    --ff-nunito_sans: "Nunito Sans", sans-serif;
+    
+    --fs-1: 5.5rem;
+    --fs-2: 3.6rem;
+    --fs-3: 3.2rem;
+    --fs-4: 2.6rem;
+    --fs-5: 2.4rem;
+    --fs-6: 2.2rem;
+    --fs-7: 2rem;
+    --fs-8: 1.8rem;
+    --fs-9: 1.5rem;
+    --fs-10: 1.4rem;
+    --fs-11: 1.3rem;
+    
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-700: 700;
+}
