@@ -1,0 +1,35 @@
+header {
+    background-color: aqua;
+}
+
+#nav-header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem;
+}
+
+#logo {
+    font-size: 2rem;
+}
+
+#nav-list {
+    display: flex;
+    gap: 1rem;
+}
+
+#banner-header {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#banner-header > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
