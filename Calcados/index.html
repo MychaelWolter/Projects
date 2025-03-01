@@ -15,9 +15,9 @@
     
     <header>
         <nav id="nav-header">
-            <i id="logo" class="fa-solid fa-shoe-prints"></i>
+            <i id="logo" class="fa-solid fa-shoe-prints fade-in"></i>
 
-            <ul id="nav-list">
+            <ul id="nav-list" class="fade-in">
                 <li class="nav-item">
                     <a href="#">Início</a>
                 </li>
@@ -32,16 +32,46 @@
                 </li>
             </ul>
 
-            <div id="nav-search">
-                <input type="search" id="input-search">
+            <div id="nav-search" class="fade-in">
+                <input type="search" id="input-search" placeholder="Pesquisar" maxlength="100" autocomplete="off">
+                    
+                <i class="fa-solid fa-cart-shopping icon-nav">
+                    <a href="#"></a>
+                </i>
 
-                <i class="fa-solid fa-cart-shopping icon-nav"></i>
-
-                <i class="fa-solid fa-circle-user icon-nav"></i>
+                <i class="fa-solid fa-circle-user icon-nav">
+                    <a href="#"></a>
+                </i>
             </div>
+
+            <button id="mobile-button">
+                <i id="mobile-button-icon" class="fa-solid fa-bars icon-nav"></i>
+            </button>
+
+            <ul id="nav-list-mobile">
+                <li class="nav-item">
+                    <a href="#">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Pagamento</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Sobre Nós</a>
+                </li>
+                <input type="search" id="input-search" placeholder="Pesquisar" maxlength="100" autocomplete="off">
+                <i class="fa-solid fa-cart-shopping icon-nav">
+                    <a href="#"></a>
+                </i>
+                <i class="fa-solid fa-circle-user icon-nav">
+                    <a href="#"></a>
+                </i>
+            </ul>
         </nav>
 
-        <section id="banner-header">
+        <section id="banner-header" class="fade-in">
             <img src="src/assets/images/adidas-1.avif" alt="Imagem de Tênis">
 
             <h1 id="title-header">Dev Calçados</h1>
@@ -59,5 +89,8 @@
     <footer>
 
     </footer>
+
+    <script src="src/scripts/animations.js"></script>
+    <script src="src/scripts/scritp.js"></script>
 </body>
 </html>
