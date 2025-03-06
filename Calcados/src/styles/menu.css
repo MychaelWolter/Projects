@@ -1,0 +1,137 @@
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+
+#subtitle-main {
+    text-align: center;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+#menu {
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.menu-item {
+    max-width: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-item img {
+    width: 16rem;
+    height: 16rem;
+}
+
+.information-menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    margin: .5rem 1rem;
+}
+
+.information-menu-item ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.title-size, .title-colors {
+    font-weight: 500;
+}
+
+.menu-size {
+    flex-wrap: wrap;
+}
+
+.menu-size-item {
+    background-color: rgb(246, 247, 248);
+    padding: 2.5px 5px;
+    border-radius: 50%;
+    border: 2px solid rgb(125, 125, 125);
+    cursor: pointer;
+    font-size: 0.95rem;
+}
+
+.menu-size-item:hover {
+    background-color: rgb(213, 213, 213);
+    transform: scale(1.1);
+}
+
+.menu-colors {
+    flex-wrap: wrap;
+}
+
+.menu-colors-item {
+    width: 29px;
+    height: 29px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 2px solid rgb(125, 125, 125);
+    cursor: pointer;
+}
+
+#blue {background-color: dodgerblue;}
+#black {background-color: black;}
+#white {background-color: white;}
+#beige {background-color: rgb(213, 186, 152);}
+
+.menu-colors-item:hover {
+    transform: scale(1.1);
+}
+
+.buy {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+    margin-top: .5rem;
+}
+
+.buy a {
+    background-color: rgb(173, 255, 47);
+    color: rgb(0, 0, 0);
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+.buy a:hover {
+    color: rgb(125, 125, 125);
+    transform: scale(1.1);
+}
+
+.buy span {
+    font-weight: bold;
+    border-bottom: 2.5px solid transparent;
+    cursor: pointer;
+}
+
+.buy span:hover {
+    font-weight: bold;
+    border-bottom: 2.5px solid rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 1100px) {
+    .menu {
+        flex-direction: column;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .menu-item {
+        flex-direction: column;
+    }
+}

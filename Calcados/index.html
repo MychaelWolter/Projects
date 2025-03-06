@@ -3,22 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dev Calçados - Os melhores tênis</title>
+    <title>Dev Sneakers - Os melhores tênis</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="src/styles/style.css">
     <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/menu.css">
 
 </head>
 <body>
-    
+
     <header>
         <nav id="nav-header">
             <i id="logo" class="fa-solid fa-shoe-prints fade-in"></i>
 
             <ul id="nav-list" class="fade-in">
-                <li class="nav-item"><a href="#">Início</a></li>
+                <li class="nav-item"><a href="#nav-header">Início</a></li>
                 <li class="nav-item"><a href="#">Menu</a></li>
                 <li class="nav-item"><a href="#">Pagamento</a></li>
                 <li class="nav-item"><a href="#">Sobre Nós</a></li>
@@ -26,7 +29,9 @@
 
             <div id="nav-search" class="fade-in">
                 <input type="search" id="search-desktop" class="input-search" placeholder="Pesquisar" maxlength="100" autocomplete="off">
-                    
+
+                <button class="search-button"><i class="fa-solid fa-magnifying-glass icon-nav"></i></button>
+
                 <a href="#"><i class="fa-solid fa-cart-shopping icon-nav"></i></a>
                 <a href="#"><i class="fa-solid fa-circle-user icon-nav"></i></a>
             </div>
@@ -43,6 +48,8 @@
 
                 <input type="search" id="search-mobile" class="input-search" placeholder="Pesquisar" maxlength="100" autocomplete="off">
 
+                <button class="search-button"><i class="fa-solid fa-magnifying-glass icon-nav"></i></button>
+
                 <a href="#"><i class="fa-solid fa-cart-shopping icon-nav"></i></a>
                 <a href="#"><i class="fa-solid fa-circle-user icon-nav"></i></a>
             </ul>
@@ -51,7 +58,7 @@
         <section id="banner-header" class="fade-in">
             <img src="src/assets/images/adidas-1.avif" alt="Imagem de Tênis Adidas">
 
-            <h1 id="title-header">Dev Calçados</h1>
+            <h1 id="title-header">Dev Sneakers</h1>
 
             <p id="content-header">Avenida Constantino Nery, Manaus - AM</p>
 
@@ -59,7 +66,210 @@
         </section>
     </header>
 
-    <main>
+    <main class="fade-in">
+        <h2 id="subtitle-main">Aproveite nossas oportunidades</h2>
+
+        <section id="menu">
+
+            <div class="menu-item">
+                <img src="src/assets/images/adidas-1.avif" alt="Tênis Adidas 1">
+
+                <div class="information-menu-item">
+                    <h3>Adidas Low Forum</h3>
+
+                    <p class="description">Masculino - Originals</p>
+
+                    <p class="title-size">Tamanhos: </p>
+                    <ul class="menu-size">
+                        <li class="menu-size-item">38</li>
+                        <li class="menu-size-item">39</li>
+                        <li class="menu-size-item">40</li>
+                        <li class="menu-size-item">41</li>
+                        <li class="menu-size-item">42</li>
+                        <li class="menu-size-item">43</li>
+                    </ul>
+
+                    <p class="title-colors">Cores: </p>
+                    <ul class="menu-colors">
+                        <li class="menu-colors-item" id="blue"></li>
+                        <li class="menu-colors-item" id="black"></li>
+                        <li class="menu-colors-item" id="white"></li>
+                        <li class="menu-colors-item" id="beige"></li>
+                    </ul>
+
+                    <div class="buy">
+                        <span>R$499,99</span>
+                        <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="src/assets/images/adidas-1.avif" alt="Tênis Adidas 1">
+
+                <div class="information-menu-item">
+                    <h3>Adidas Low Forum</h3>
+
+                    <p class="description">Masculino - Originals</p>
+
+                    <p class="title-size">Tamanhos: </p>
+                    <ul class="menu-size">
+                        <li class="menu-size-item">38</li>
+                        <li class="menu-size-item">39</li>
+                        <li class="menu-size-item">40</li>
+                        <li class="menu-size-item">41</li>
+                        <li class="menu-size-item">42</li>
+                        <li class="menu-size-item">43</li>
+                    </ul>
+
+                    <p class="title-colors">Cores: </p>
+                    <ul class="menu-colors">
+                        <li class="menu-colors-item" id="blue"></li>
+                        <li class="menu-colors-item" id="black"></li>
+                        <li class="menu-colors-item" id="white"></li>
+                        <li class="menu-colors-item" id="beige"></li>
+                    </ul>
+
+                    <div class="buy">
+                        <span>R$499,99</span>
+                        <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="src/assets/images/adidas-1.avif" alt="Tênis Adidas 1">
+
+                <div class="information-menu-item">
+                    <h3>Adidas Low Forum</h3>
+
+                    <p class="description">Masculino - Originals</p>
+
+                    <p class="title-size">Tamanhos: </p>
+                    <ul class="menu-size">
+                        <li class="menu-size-item">38</li>
+                        <li class="menu-size-item">39</li>
+                        <li class="menu-size-item">40</li>
+                        <li class="menu-size-item">41</li>
+                        <li class="menu-size-item">42</li>
+                        <li class="menu-size-item">43</li>
+                    </ul>
+
+                    <p class="title-colors">Cores: </p>
+                    <ul class="menu-colors">
+                        <li class="menu-colors-item" id="blue"></li>
+                        <li class="menu-colors-item" id="black"></li>
+                        <li class="menu-colors-item" id="white"></li>
+                        <li class="menu-colors-item" id="beige"></li>
+                    </ul>
+
+                    <div class="buy">
+                        <span>R$499,99</span>
+                        <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="src/assets/images/adidas-1.avif" alt="Tênis Adidas 1">
+
+                <div class="information-menu-item">
+                    <h3>Adidas Low Forum</h3>
+
+                    <p class="description">Masculino - Originals</p>
+
+                    <p class="title-size">Tamanhos: </p>
+                    <ul class="menu-size">
+                        <li class="menu-size-item">38</li>
+                        <li class="menu-size-item">39</li>
+                        <li class="menu-size-item">40</li>
+                        <li class="menu-size-item">41</li>
+                        <li class="menu-size-item">42</li>
+                        <li class="menu-size-item">43</li>
+                    </ul>
+
+                    <p class="title-colors">Cores: </p>
+                    <ul class="menu-colors">
+                        <li class="menu-colors-item" id="blue"></li>
+                        <li class="menu-colors-item" id="black"></li>
+                        <li class="menu-colors-item" id="white"></li>
+                        <li class="menu-colors-item" id="beige"></li>
+                    </ul>
+
+                    <div class="buy">
+                        <span>R$499,99</span>
+                        <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="src/assets/images/adidas-1.avif" alt="Tênis Adidas 1">
+
+                <div class="information-menu-item">
+                    <h3>Adidas Low Forum</h3>
+
+                    <p class="description">Masculino - Originals</p>
+
+                    <p class="title-size">Tamanhos: </p>
+                    <ul class="menu-size">
+                        <li class="menu-size-item">38</li>
+                        <li class="menu-size-item">39</li>
+                        <li class="menu-size-item">40</li>
+                        <li class="menu-size-item">41</li>
+                        <li class="menu-size-item">42</li>
+                        <li class="menu-size-item">43</li>
+                    </ul>
+
+                    <p class="title-colors">Cores: </p>
+                    <ul class="menu-colors">
+                        <li class="menu-colors-item" id="blue"></li>
+                        <li class="menu-colors-item" id="black"></li>
+                        <li class="menu-colors-item" id="white"></li>
+                        <li class="menu-colors-item" id="beige"></li>
+                    </ul>
+
+                    <div class="buy">
+                        <span>R$499,99</span>
+                        <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="src/assets/images/adidas-1.avif" alt="Tênis Adidas 1">
+
+                <div class="information-menu-item">
+                    <h3>Adidas Low Forum</h3>
+
+                    <p class="description">Masculino - Originals</p>
+
+                    <p class="title-size">Tamanhos: </p>
+                    <ul class="menu-size">
+                        <li class="menu-size-item">38</li>
+                        <li class="menu-size-item">39</li>
+                        <li class="menu-size-item">40</li>
+                        <li class="menu-size-item">41</li>
+                        <li class="menu-size-item">42</li>
+                        <li class="menu-size-item">43</li>
+                    </ul>
+
+                    <p class="title-colors">Cores: </p>
+                    <ul class="menu-colors">
+                        <li class="menu-colors-item" id="blue"></li>
+                        <li class="menu-colors-item" id="black"></li>
+                        <li class="menu-colors-item" id="white"></li>
+                        <li class="menu-colors-item" id="beige"></li>
+                    </ul>
+
+                    <div class="buy">
+                        <span>R$499,99</span>
+                        <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
 
     </main>
 
