@@ -8,14 +8,15 @@
 html, body {
     width: 100vw;
     height: 100vh;
+    background-color: rgb(246, 247, 248);
     overflow-x: hidden;
-}
-
-body {
-    background-color: #f6f7f8;
 }
 
 button {
     background-color: transparent;
     border: none;
+}
+
+input:focus {
+    outline: none;
 }
