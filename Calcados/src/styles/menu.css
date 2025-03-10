@@ -1,12 +1,4 @@
-main {
-    max-width: 1200px;
-    margin: 2rem auto;
-}
-
-#subtitle-main {
-    text-align: center;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-}
+/* SECTION MENU */
 
 #menu {
     margin: 2rem;
@@ -18,8 +10,10 @@ main {
     gap: 2rem;
 }
 
+/* CARD ITEM */
+
 .menu-item {
-    max-width: 30rem;
+    max-width: 32rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,6 +22,12 @@ main {
 .menu-item img {
     width: 16rem;
     height: 16rem;
+    cursor: pointer;
+}
+
+.menu-item img:hover {
+    transform: scale(1.05);
+    transition: all .3s;
 }
 
 .information-menu-item {
@@ -57,7 +57,6 @@ main {
 .menu-size-item {
     background-color: rgb(246, 247, 248);
     padding: 2.5px 5px;
-    border-radius: 50%;
     border: 2px solid rgb(125, 125, 125);
     cursor: pointer;
     font-size: 0.95rem;
@@ -105,10 +104,10 @@ main {
     color: rgb(0, 0, 0);
     padding: 5px 15px;
     border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 .buy a:hover {
-    color: rgb(125, 125, 125);
     transform: scale(1.1);
 }
 
