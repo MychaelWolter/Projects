@@ -1,3 +1,13 @@
+:root {
+    --green: rgb(173, 255, 47);
+    --white-1: rgb(255, 255, 255);
+    --white-2: rgb(246, 247, 248);
+    --gray: rgb(200, 200, 200);
+    --black-1: rgb(0, 0, 0);
+    --black-2: rgba(0, 0, 0, 0.5);
+    --black-3: rgba(0, 0, 0, 0.3);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +18,7 @@
 html, body {
     width: 100vw;
     height: 100vh;
-    background-color: rgb(246, 247, 248);
+    background-color: var(--white-2);
     overflow-x: hidden;
 }
 
