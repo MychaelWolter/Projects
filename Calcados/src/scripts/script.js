@@ -7,3 +7,14 @@ mobileButton.addEventListener("click", () => {
     navListMobile.classList.toggle("visible-mobile");
     icon.classList.toggle("fa-x");
 });
+
+
+
+const buttonCartShopping = [...document.querySelectorAll(".fa-cart-shopping")];
+
+buttonCartShopping.map((button) => {
+    button.addEventListener("click", () => {
+        const cartShopping = document.querySelector("#cart-shopping");
+        cartShopping.classList.toggle("visible-cart-shopping");
+    });
+});
