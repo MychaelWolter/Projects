@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev Sneakers - Os melhores tênis</title>
 
+    <link rel="shortcut icon" href="src/assets/images/adidas-1.avif" type="image/x-icon">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -12,6 +14,7 @@
     <link rel="stylesheet" href="src/styles/style.css">
     <link rel="stylesheet" href="src/styles/header.css">
     <link rel="stylesheet" href="src/styles/menu.css">
+    <link rel="stylesheet" href="src/styles/cart-shopping.css">
 
 </head>
 <body>
@@ -269,6 +272,35 @@
                 </div>
             </div>
 
+        </section>
+
+        <section id="cart-shopping">
+            <h3>Seu carrinho</h3>
+
+            <div class="item-cart-shopping">
+                <div class="information-item-cart-shopping">
+                    <h4>Adidas Low Forum</h4>
+                    <p>(Quantidade: <span>3</span>)</p>
+                    <p>Tamanho: <span>41</span></p>
+                    <p>Cor: <span>Azul</span></p>
+                    <span>R$ 499,99</span>
+                </div>
+
+                <div class="remove">
+                    <p>Remover</p>
+                </div>
+            </div>
+
+            <div id="finish-order">
+                <h4>Endereço de Entrega:</h4>
+                <input type="text" id="input-adress" maxlength="100">
+
+                <div id="buttons-order">
+                    <p id="close-order">Fechar</p>
+
+                    <button id="button-finish-order">Finalizar pedido</button>
+                </div>
+            </div>
         </section>
 
     </main>

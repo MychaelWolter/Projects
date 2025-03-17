@@ -55,15 +55,15 @@
 }
 
 .menu-size-item {
-    background-color: rgb(246, 247, 248);
+    background-color: var(--white-2);
     padding: 2.5px 5px;
-    border: 2px solid rgb(125, 125, 125);
+    border: 2px solid var(--gray-3);
     cursor: pointer;
     font-size: 0.95rem;
 }
 
 .menu-size-item:hover {
-    background-color: rgb(213, 213, 213);
+    background-color: var(--gray-2);
     transform: scale(1.1);
 }
 
@@ -76,14 +76,14 @@
     height: 29px;
     padding: 5px;
     border-radius: 50%;
-    border: 2px solid rgb(125, 125, 125);
+    border: 2px solid var(--gray-3);
     cursor: pointer;
 }
 
-#blue {background-color: rgb(30, 144, 255);}
-#black {background-color: var(--black-1)}
-#white {background-color: rgb(255, 255, 255);}
-#beige {background-color: rgb(213, 186, 152);}
+#blue {background-color: var(--blue);}
+#black {background-color: var(--black-1);}
+#white {background-color: var(--white-1);}
+#beige {background-color: var(--beige);}
 
 .menu-colors-item:hover {
     transform: scale(1.1);
@@ -100,11 +100,11 @@
 }
 
 .buy a {
-    background-color: rgb(173, 255, 47);
-    color: --black-1;
+    background-color: var(--green);
+    color: var(--black-1);
     padding: 5px 15px;
     border-radius: 15px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 10px var(--black-3);
 }
 
 .buy a:hover {

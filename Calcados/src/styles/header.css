@@ -4,7 +4,7 @@
 header {
     background: var(--black-1) url("../assets/images/background.webp") no-repeat center;
     background-size: cover;
-    color: rgb(255, 255, 255);
+    color: var(--white-1);
 }
 
 
@@ -12,7 +12,7 @@ header {
 
 
 #nav-header {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 50%, transparent);
+    background-image: linear-gradient(to bottom, var(--black-2) 50%, transparent);
     height: 7rem;
     display: flex;
     align-items: center;
@@ -36,14 +36,14 @@ header {
 .nav-item a {
     text-decoration: none;
     font-weight: 500;
-    color: rgb(255, 255, 255);
+    color: var(--white-1);
     padding-bottom: 5px;
     border-bottom: 2px solid transparent;
 }
 
 .nav-item a:hover {
-    color: rgb(200, 200, 200);
-    border-bottom: 2px solid rgb(200, 200, 200);
+    color: var(--gray-1);
+    border-bottom: 2px solid var(--gray-1);
 }
 
 
@@ -58,13 +58,13 @@ header {
 }
 
 #nav-search a {
-    color: rgb(255, 255, 255);
+    color: var(--white-1);
 }
 
 .input-search {
     background-color: transparent;
     font-weight: 500;
-    color: rgb(255, 255, 255);
+    color: var(--white-1);
     padding: 5px;
     border: none;
     border-bottom: 2px solid transparent;
@@ -73,13 +73,13 @@ header {
 
 .input-search:hover,
 .input-search:focus {
-    color: rgb(200, 200, 200);
-    border-bottom: 2px solid rgb(200, 200, 200);
+    color: var(--gray-1);
+    border-bottom: 2px solid var(--gray-1);
     cursor: pointer;
 }
 
 .search-button {
-    color: rgb(255, 255, 255);
+    color: var(--white-1);
     padding-bottom: 5px;
     cursor: pointer;
 }
@@ -91,7 +91,7 @@ header {
 }
 
 .icon-nav:hover {
-    color: rgb(200, 200, 200);
+    color: var(--gray-1);
 }
 
 
@@ -121,7 +121,7 @@ header {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 10px var(--black-3);
 }
 
 #title-header {
@@ -134,9 +134,9 @@ header {
 }
 
 #time {
-    background-color: rgb(173, 255, 47);
+    background-color: var(--green);
     color: var(--black-1);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 10px var(--black-2);
     padding: 10px 15px;
     border-radius: 15px;
     cursor: pointer;
@@ -153,7 +153,7 @@ header {
     }
 
     #nav-header {
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        background-image: linear-gradient(to bottom, var(--black-2), var(--black-2));
         position: relative;
         justify-content: space-between;
     }
@@ -161,7 +161,7 @@ header {
     #mobile-button {
         display: flex;
         align-items: center;
-        color: rgb(255, 255, 255);
+        color: var(--white-1);
         width: 20px;
         height: 23px;
         cursor: pointer;
@@ -179,7 +179,7 @@ header {
         flex-direction: column;
         align-items: center;
         gap: 1rem;
-        background-color: rgb(0, 0, 0, 0.5);
+        background-color: var(--black-2);
         padding: 20px 0;
         list-style: none;
         z-index: 1;
@@ -198,7 +198,7 @@ header {
     }
 
     #nav-list-mobile a {
-        color: rgb(255, 255, 255);
+        color: var(--white-1);
     }
 
     .search-button {

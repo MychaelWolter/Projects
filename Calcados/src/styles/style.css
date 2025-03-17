@@ -2,10 +2,14 @@
     --green: rgb(173, 255, 47);
     --white-1: rgb(255, 255, 255);
     --white-2: rgb(246, 247, 248);
-    --gray: rgb(200, 200, 200);
+    --gray-1: rgb(200, 200, 200);
+    --gray-2: rgb(213, 213, 213);
+    --gray-3: rgb(125, 125, 125);
     --black-1: rgb(0, 0, 0);
     --black-2: rgba(0, 0, 0, 0.5);
     --black-3: rgba(0, 0, 0, 0.3);
+    --blue: rgb(30, 144, 255);
+    --beige: rgb(213, 186, 152);
 }
 
 * {
@@ -27,6 +31,11 @@ button {
     border: none;
 }
 
+input {
+    background-color: transparent;
+    border: transparent;
+}
+
 input:focus {
     outline: none;
 }
@@ -34,6 +43,7 @@ input:focus {
 main {
     max-width: 1200px;
     margin: 2rem auto;
+    position: relative;
 }
 
 #subtitle-main {
@@ -51,4 +61,10 @@ main {
 .visible {
     opacity: 1;
     transform: translateY(0px);
+}
+
+footer {
+    background-color: var(--gray-1);
+    padding: 1rem;
+    text-align: center;
 }
