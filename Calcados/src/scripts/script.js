@@ -46,4 +46,4 @@ buttonCartShopping.map((button) => {
     button.addEventListener("click", toggleCartShopping);
 });
 
-buttonCloseCartShopping.addEventListener("click", toggleCartShopping);
+buttonCloseCartShopping.addEventListener("click", toggleCartShopping); 
